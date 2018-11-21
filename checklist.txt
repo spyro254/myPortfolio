@@ -1,0 +1,24 @@
+key:
+[ ] = to do
+[o] = started 
+[x] = completed 
+
+//
+    LAYOUT
+//
+
+[ ] Create landing page 
+[ ] Create recruiter page
+
+
+
+//
+    Create recruiter page
+//
+
+[] basic structure
+[] first column for headings
+[] second for content
+[] content to load on 
+
+
