@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css?family=Alice|Cabin|Lora|Old+Standard+TT|Pacifico|Roboto+Mono|Satisfy');
+
+/*
+    font-family: 'Satisfy', cursive;
+    font-family: 'Old Standard TT', serif;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Lora', serif;
+    font-family: 'Alice', serif;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Cabin', sans-serif;
+    */
+
+.main-container {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    background-color: tomato;
+    font-family: 'Old Standard TT';
+}
+
+.heading-container {
+    background-color: indianred;
+    flex-basis: 20%;
+    font-variant-caps: all-small-caps;
+    font-size: 1.5rem;
+    transition: all 250ms ease-out;
+}
+
+.heading-container:hover {
+    flex-basis: 100%;
+    font-size: 3rem;
+
+}
+
+.heading {
+    cursor: pointer;
+}
+
+.content-container {
+    background-color: darkred;
+    flex-basis: 100%;
+    font-family: 'Roboto Mono', monospace;
+    padding: 0 15%;
+}
+
+.content__heading {
+    font-size: 1.5rem;
+}
+
+.content__heading::after {
+    content: '▾';
+    float: right;
+    padding-right: 10%;
+}
+
+.content__heading--open::after {
+    content: '▴'
+}
+
+.content__list {
+    padding-left: 3rem;
+    text-indent: -2rem;
+}
+
+.content__list li::before {
+    content: '/ ';
+}
